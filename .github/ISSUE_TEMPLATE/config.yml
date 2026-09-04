@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 東京通勤レーダーを開く
+    url: https://tokyo-commute-radar-web-788259830737.asia-northeast1.run.app/
+    about: 公開中の Web サービスを確認します
+  - name: 使用データとライセンス
+    url: https://github.com/zll6796096/tokyo-commute-radar-support/blob/main/DATA_SOURCES.md
+    about: データ提供元、ライセンス、再配布境界を確認します
+  - name: セキュリティ上の問題を非公開で報告
+    url: https://github.com/zll6796096/tokyo-commute-radar-support/security/advisories/new
+    about: 認証情報や脆弱性を通常の Issue に投稿しないでください

@@ -1,0 +1,61 @@
+name: 作品の内容・表示・操作に関するお問い合わせ
+description: 東京通勤レーダーの表示内容、データ範囲、操作について開発者へ質問します
+title: "[お問い合わせ] "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        お問い合わせは開発者が確認します。データ提供者、交通事業者、
+        チャレンジ主催者へ同じ質問を送らないでください。
+        住所、勤務先、氏名、認証情報などは記載しないでください。
+        セキュリティ上の問題は通常の Issue に書かず、
+        [非公開報告](https://github.com/zll6796096/tokyo-commute-radar-support/security/advisories/new) を利用してください。
+  - type: dropdown
+    id: category
+    attributes:
+      label: お問い合わせの種類
+      options:
+        - 表示内容・データ範囲
+        - 操作方法
+        - 不具合
+        - プライバシー
+        - その他
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: 質問・問題の概要
+      description: 個人情報や実際の住所を含めず、確認したい内容を書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: 不具合の場合のみ、個人情報を除いた操作手順を書いてください。
+      placeholder: |
+        1. 公開サービスを開く
+        2. 個人情報を含まないテスト条件を入力する
+        3. 表示を確認する
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: 期待した表示と実際の表示
+      description: 何を期待し、何が表示されたかを書いてください。
+  - type: input
+    id: environment
+    attributes:
+      label: ブラウザ環境
+      description: "例: Safari 20 / macOS、Chrome / Android"
+  - type: checkboxes
+    id: privacy_confirmation
+    attributes:
+      label: 公開投稿の確認
+      options:
+        - label: 住所、勤務先、氏名、連絡先、認証情報を含めていません。
+          required: true
+        - label: 本サービスの問い合わせ先は開発者であり、データ提供者や主催者ではないことを理解しました。
+          required: true
