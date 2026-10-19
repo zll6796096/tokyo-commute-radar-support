@@ -4,6 +4,8 @@
 交通データで確認できる居住候補エリアを可視化する実験的な Web サービスです。
 公共交通オープンデータチャレンジ2026向けに開発しています。
 
+公開名義: **RYU**
+
 [東京通勤レーダーを開く](https://tokyo-commute-radar-web-788259830737.asia-northeast1.run.app/)
 
 ## このリポジトリについて
@@ -27,8 +29,10 @@
 ## お問い合わせ
 
 表示内容や操作に関する質問は、
+[開発者 RYU へのメール](mailto:zll6796096@gmail.com)
+（`zll6796096@gmail.com`）または
 [お問い合わせフォーム](https://github.com/zll6796096/tokyo-commute-radar-support/issues/new?template=question.yml)
-から開発者へお寄せください。投稿には GitHub アカウントが必要です。
+からお寄せください。フォームの投稿には GitHub アカウントが必要です。
 
 住所、勤務先、認証情報などの個人情報・機密情報は投稿しないでください。
 セキュリティ上の問題は [SECURITY.md](SECURITY.md) を確認してください。

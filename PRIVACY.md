@@ -72,7 +72,9 @@ GitHub Issues への投稿内容は公開され、投稿には GitHub アカウ�
 ## お問い合わせ
 
 このサービスのプライバシーに関する一般的な質問は、個人情報を含めずに
-[お問い合わせフォーム][question-form] から開発者へお寄せください。
+[開発者 RYU へのメール](mailto:zll6796096@gmail.com)
+（`zll6796096@gmail.com`）または
+[お問い合わせフォーム][question-form] からお寄せください。
 セキュリティ上の問題は [SECURITY.md](SECURITY.md) に従って非公開で報告して
 ください。
 
